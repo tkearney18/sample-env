@@ -1,0 +1,44 @@
+{
+  "name": "sample-env",
+  "version": "1.0.0",
+  "description": "A sample environment for react, redux, node.js, express, and webpack. This repo has not been set up with npm in the interest of not needing to change the name of the project to your desired name. To get started:   - npm init   - npm install express path react react-dom redux react-redux --save   - npm install babel-core babel-cli babel-loader babel-plugin-react-display-name chalk numeral webpack-dev-middleware webpack-hot-middleware babel-preset-react-hmre babel-preset-react babel-preset-latest babel-preset-es2015 npm-run-all open webpack --save-dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkearney18/sample-env.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkearney18/sample-env/issues"
+  },
+  "homepage": "https://github.com/tkearney18/sample-env#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "path": "^0.12.7",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-react-display-name": "^2.0.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-latest": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "chalk": "^1.1.3",
+    "npm-run-all": "^4.0.2",
+    "numeral": "^2.0.6",
+    "open": "0.0.5",
+    "webpack": "^2.3.2",
+    "webpack-dev-middleware": "^1.10.1",
+    "webpack-hot-middleware": "^2.17.1"
+  }
+}
